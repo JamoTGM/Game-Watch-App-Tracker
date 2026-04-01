@@ -616,7 +616,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 312670375}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1779316520}
+        m_TargetAssemblyTypeName: ItemPopupController, Assembly-CSharp
+        m_MethodName: ShowPopup
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &312670375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1523,7 +1535,7 @@ Transform:
   m_GameObject: {fileID: 1231421267}
   serializedVersion: 2
   m_LocalRotation: {x: -0.70710707, y: -0, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: -0.12165, y: 0.89, z: 8.4}
+  m_LocalPosition: {x: -0.12165, y: 0.89, z: 26.37}
   m_LocalScale: {x: 2.0677, y: 2.0677, z: 2.0677}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1740,8 +1752,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1779316519}
+  - component: {fileID: 1779316520}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: UIManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1762,6 +1775,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1779316520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779316518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f2067aadd522247828fce5e7b9ccb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupPanel: {fileID: 2025618481}
 --- !u!1 &1992586211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,7 +1948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
