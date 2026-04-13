@@ -26,8 +26,7 @@ public class ItemPopupController : MonoBehaviour
         // Set logo texture on Quad
         logoQuadRenderer.material.mainTexture = logoTexture;
 
-        // No scroll stopping
-        EventSystem.current.SetSelectedGameObject(null);
+      
     }
 
     public void ClosePopup()
