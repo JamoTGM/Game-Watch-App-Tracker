@@ -15,6 +15,8 @@ ShaderVariantCollection:
         passType: 0
       - keywords: COLOR_FILTER EDGE_SHINY
         passType: 0
+      - keywords: DETAIL_MASKING EDGE_SHINY
+        passType: 0
       - keywords: EDGE_PLAIN
         passType: 0
       - keywords: EDGE_SHINY
@@ -26,6 +28,8 @@ ShaderVariantCollection:
       - keywords: TARGET_HUE TRANSITION_MELT
         passType: 0
       - keywords: TONE_GRAYSCALE
+        passType: 0
+      - keywords: TONE_NEGATIVE
         passType: 0
       - keywords: TONE_POSTERIZE
         passType: 0
