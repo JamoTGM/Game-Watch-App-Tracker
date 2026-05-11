@@ -13,7 +13,15 @@ ShaderVariantCollection:
       variants:
       - keywords: COLOR_FILTER
         passType: 0
+      - keywords: COLOR_FILTER DETAIL_MASKING SAMPLING_RGB_SHIFT
+        passType: 0
+      - keywords: COLOR_FILTER DETAIL_SUBTRACTIVE SAMPLING_RGB_SHIFT
+        passType: 0
       - keywords: COLOR_FILTER EDGE_SHINY
+        passType: 0
+      - keywords: COLOR_FILTER GRADATION_COLOR2 SAMPLING_RGB_SHIFT
+        passType: 0
+      - keywords: COLOR_FILTER SAMPLING_RGB_SHIFT
         passType: 0
       - keywords: DETAIL_MASKING EDGE_SHINY
         passType: 0
@@ -21,9 +29,23 @@ ShaderVariantCollection:
         passType: 0
       - keywords: EDGE_SHINY
         passType: 0
+      - keywords: EDGE_SHINY TRANSITION_MELT
+        passType: 0
       - keywords: GRADATION_COLOR2
         passType: 0
       - keywords: SAMPLING_BLUR_FAST
+        passType: 0
+      - keywords: SAMPLING_RGB_SHIFT
+        passType: 0
+      - keywords: SAMPLING_RGB_SHIFT TRANSITION_BURN
+        passType: 0
+      - keywords: SAMPLING_RGB_SHIFT TRANSITION_FADE
+        passType: 0
+      - keywords: SAMPLING_RGB_SHIFT TRANSITION_MELT
+        passType: 0
+      - keywords: SAMPLING_RGB_SHIFT TRANSITION_PATTERN
+        passType: 0
+      - keywords: SAMPLING_RGB_SHIFT TRANSITION_SHINY
         passType: 0
       - keywords: TARGET_HUE TRANSITION_MELT
         passType: 0
@@ -43,18 +65,94 @@ ShaderVariantCollection:
         passType: 0
       - keywords: TRANSITION_SHINY
         passType: 0
+  - first: {fileID: 4800000, guid: 935b7be1c88464d2eb87204fdfab5a38, type: 3}
+    second:
+      variants:
+      - keywords: BEVEL_ON EDGE_SHINY GLOW_ON OUTLINE_ON TRANSITION_MELT UNDERLAY_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 16f26337621974eaf998b9857bac39c6, type: 3}
+    second:
+      variants:
+      - keywords: EDGE_SHINY TRANSITION_MELT
+        passType: 0
   - first: {fileID: 4800000, guid: e65241fa80a374114b3f55ed746c04d9, type: 3}
     second:
       variants:
+      - keywords: COLOR_FILTER
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_PLAIN OUTLINE_ON SAMPLING_BLUR_FAST TONE_POSTERIZE
+          TRANSITION_MELT UNDERLAY_ON
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_PLAIN OUTLINE_ON SAMPLING_PIXELATION TONE_POSTERIZE
+          TRANSITION_MELT UNDERLAY_ON
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_PLAIN OUTLINE_ON SAMPLING_RGB_SHIFT TONE_POSTERIZE
+          TRANSITION_MELT UNDERLAY_ON
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_PLAIN OUTLINE_ON TONE_POSTERIZE TRANSITION_MELT
+          UNDERLAY_ON
+        passType: 0
       - keywords: COLOR_FILTER EDGE_SHINY
         passType: 0
+      - keywords: COLOR_FILTER TRANSITION_MELT
+        passType: 0
+      - keywords: DETAIL_ADDITIVE TRANSITION_MELT
+        passType: 0
+      - keywords: DETAIL_MASKING EDGE_SHINY TRANSITION_MELT
+        passType: 0
+      - keywords: DETAIL_MASKING TRANSITION_MELT
+        passType: 0
+      - keywords: DETAIL_MULTIPLY_ADDITIVE TRANSITION_MELT
+        passType: 0
+      - keywords: DETAIL_SUBTRACTIVE TRANSITION_MELT
+        passType: 0
+      - keywords: EDGE_PLAIN OUTLINE_ON TONE_POSTERIZE TRANSITION_MELT UNDERLAY_ON
+        passType: 0
+      - keywords: EDGE_PLAIN OUTLINE_ON TONE_RETRO TRANSITION_MELT UNDERLAY_ON
+        passType: 0
+      - keywords: EDGE_PLAIN OUTLINE_ON TRANSITION_MELT UNDERLAY_ON
+        passType: 0
+      - keywords: EDGE_PLAIN OUTLINE_ON UNDERLAY_ON
+        passType: 0
       - keywords: EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_SHINY OUTLINE_ON SAMPLING_RGB_SHIFT TRANSITION_MELT UNDERLAY_ON
+        passType: 0
+      - keywords: EDGE_SHINY OUTLINE_ON TRANSITION_MELT UNDERLAY_ON
         passType: 0
       - keywords: EDGE_SHINY TONE_NEGATIVE
         passType: 0
       - keywords: EDGE_SHINY TONE_SEPIA
         passType: 0
+      - keywords: EDGE_SHINY TRANSITION_MELT
+        passType: 0
+      - keywords: SAMPLING_EDGE_ALPHA
+        passType: 0
+      - keywords: TARGET_HUE TRANSITION_MELT
+        passType: 0
+      - keywords: TARGET_LUMINANCE TRANSITION_MELT
+        passType: 0
       - keywords: TONE_GRAYSCALE
+        passType: 0
+      - keywords: TONE_NEGATIVE
+        passType: 0
+      - keywords: TONE_POSTERIZE
+        passType: 0
+      - keywords: TONE_RETRO
+        passType: 0
+      - keywords: TRANSITION_BLAZE
+        passType: 0
+      - keywords: TRANSITION_BURN
+        passType: 0
+      - keywords: TRANSITION_CUTOFF
+        passType: 0
+      - keywords: TRANSITION_FADE
+        passType: 0
+      - keywords: TRANSITION_MELT
+        passType: 0
+      - keywords: TRANSITION_PATTERN
+        passType: 0
+      - keywords: TRANSITION_SHINY
         passType: 0
 --- !u!114 &11400000
 MonoBehaviour:
