@@ -11,5 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Console Selction/Console.unity
     guid: e8e284b635a76bb49a72f6d6846c9531
+  - enabled: 1
+    path: Assets/Achievements/P5Achieve/P5_Achieve.unity
+    guid: c853577180a8d0c4198e9dade74c78bc
+  - enabled: 1
+    path: Assets/Game Selection screen/Game_Select.unity
+    guid: 2d141264da2c15e4f8d3fa351b18bec4
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
