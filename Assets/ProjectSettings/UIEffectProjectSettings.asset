@@ -80,6 +80,8 @@ ShaderVariantCollection:
       variants:
       - keywords: COLOR_FILTER
         passType: 0
+      - keywords: COLOR_FILTER DETAIL_MASKING OUTLINE_ON TRANSITION_DISSOLVE UNDERLAY_ON
+        passType: 0
       - keywords: COLOR_FILTER EDGE_PLAIN OUTLINE_ON SAMPLING_BLUR_FAST TONE_POSTERIZE
           TRANSITION_MELT UNDERLAY_ON
         passType: 0
@@ -93,6 +95,14 @@ ShaderVariantCollection:
           UNDERLAY_ON
         passType: 0
       - keywords: COLOR_FILTER EDGE_SHINY
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_SHINY OUTLINE_ON TRANSITION_DISSOLVE UNDERLAY_ON
+        passType: 0
+      - keywords: COLOR_FILTER GRADATION_COLOR2 OUTLINE_ON TRANSITION_DISSOLVE UNDERLAY_ON
+        passType: 0
+      - keywords: COLOR_FILTER OUTLINE_ON TRANSITION_DISSOLVE UNDERLAY_ON
+        passType: 0
+      - keywords: COLOR_FILTER OUTLINE_ON UNDERLAY_ON
         passType: 0
       - keywords: COLOR_FILTER TRANSITION_MELT
         passType: 0
@@ -125,6 +135,18 @@ ShaderVariantCollection:
       - keywords: EDGE_SHINY TONE_SEPIA
         passType: 0
       - keywords: EDGE_SHINY TRANSITION_MELT
+        passType: 0
+      - keywords: OUTLINE_ON SAMPLING_RGB_SHIFT UNDERLAY_ON
+        passType: 0
+      - keywords: OUTLINE_ON TARGET_HUE TRANSITION_DISSOLVE UNDERLAY_ON
+        passType: 0
+      - keywords: OUTLINE_ON TARGET_LUMINANCE TRANSITION_DISSOLVE UNDERLAY_ON
+        passType: 0
+      - keywords: OUTLINE_ON TONE_GRAYSCALE UNDERLAY_ON
+        passType: 0
+      - keywords: OUTLINE_ON TRANSITION_DISSOLVE UNDERLAY_ON
+        passType: 0
+      - keywords: OUTLINE_ON TRANSITION_FADE UNDERLAY_ON
         passType: 0
       - keywords: SAMPLING_EDGE_ALPHA
         passType: 0
