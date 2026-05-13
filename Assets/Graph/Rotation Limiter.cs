@@ -14,7 +14,7 @@ public class RotationLimiter : MonoBehaviour
     {
         Vector3 angles = transform.localEulerAngles;
 
-        // Convert Unity's 0-360 angles to -180 to 180
+        // Convert 0-360 angles to -180 to 180
         float x = angles.x;
         float y = angles.y;
 
