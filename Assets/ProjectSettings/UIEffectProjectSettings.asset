@@ -13,11 +13,27 @@ ShaderVariantCollection:
       variants:
       - keywords: COLOR_FILTER
         passType: 0
+      - keywords: COLOR_FILTER DETAIL_MASKING EDGE_SHINY
+        passType: 0
       - keywords: COLOR_FILTER DETAIL_MASKING SAMPLING_RGB_SHIFT
+        passType: 0
+      - keywords: COLOR_FILTER DETAIL_MULTIPLY EDGE_SHINY
+        passType: 0
+      - keywords: COLOR_FILTER DETAIL_REPLACE EDGE_SHINY
         passType: 0
       - keywords: COLOR_FILTER DETAIL_SUBTRACTIVE SAMPLING_RGB_SHIFT
         passType: 0
       - keywords: COLOR_FILTER EDGE_SHINY
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_SHINY GRADATION_COLOR2
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_SHINY SAMPLING_BLUR_FAST
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_SHINY TONE_GRAYSCALE
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_SHINY TRANSITION_FADE
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_SHINY TRANSITION_SHINY
         passType: 0
       - keywords: COLOR_FILTER GRADATION_COLOR2
         passType: 0
@@ -35,11 +51,21 @@ ShaderVariantCollection:
         passType: 0
       - keywords: COLOR_FILTER SAMPLING_RGB_SHIFT
         passType: 0
+      - keywords: COLOR_FILTER TONE_RETRO
+        passType: 0
+      - keywords: DETAIL_MASKING
+        passType: 0
       - keywords: DETAIL_MASKING EDGE_SHINY
+        passType: 0
+      - keywords: DETAIL_REPLACE
         passType: 0
       - keywords: EDGE_PLAIN
         passType: 0
       - keywords: EDGE_SHINY
+        passType: 0
+      - keywords: EDGE_SHINY GRADATION_COLOR2
+        passType: 0
+      - keywords: EDGE_SHINY TONE_RETRO
         passType: 0
       - keywords: EDGE_SHINY TRANSITION_MELT
         passType: 0
@@ -109,6 +135,8 @@ ShaderVariantCollection:
         passType: 0
       - keywords: COLOR_FILTER EDGE_PLAIN OUTLINE_ON TONE_POSTERIZE TRANSITION_MELT
           UNDERLAY_ON
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_PLAIN OUTLINE_ON TRANSITION_DISSOLVE UNDERLAY_ON
         passType: 0
       - keywords: COLOR_FILTER EDGE_SHINY
         passType: 0
