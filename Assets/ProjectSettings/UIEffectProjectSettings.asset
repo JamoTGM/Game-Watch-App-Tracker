@@ -23,6 +23,16 @@ ShaderVariantCollection:
         passType: 0
       - keywords: COLOR_FILTER GRADATION_COLOR2 SAMPLING_RGB_SHIFT
         passType: 0
+      - keywords: COLOR_FILTER SAMPLING_BLUR_MEDIUM
+        passType: 0
+      - keywords: COLOR_FILTER SAMPLING_EDGE_LUMINANCE
+        passType: 0
+      - keywords: COLOR_FILTER SAMPLING_PIXELATION
+        passType: 0
+      - keywords: COLOR_FILTER SAMPLING_PIXELATION TRANSITION_CUTOFF
+        passType: 0
+      - keywords: COLOR_FILTER SAMPLING_PIXELATION TRANSITION_FADE
+        passType: 0
       - keywords: COLOR_FILTER SAMPLING_RGB_SHIFT
         passType: 0
       - keywords: DETAIL_MASKING EDGE_SHINY
@@ -82,6 +92,8 @@ ShaderVariantCollection:
       variants:
       - keywords: COLOR_FILTER
         passType: 0
+      - keywords: COLOR_FILTER DETAIL_ADDITIVE EDGE_SHINY OUTLINE_ON UNDERLAY_ON
+        passType: 0
       - keywords: COLOR_FILTER DETAIL_MASKING OUTLINE_ON TRANSITION_DISSOLVE UNDERLAY_ON
         passType: 0
       - keywords: COLOR_FILTER EDGE_PLAIN OUTLINE_ON SAMPLING_BLUR_FAST TONE_POSTERIZE
@@ -108,13 +120,21 @@ ShaderVariantCollection:
         passType: 0
       - keywords: COLOR_FILTER TRANSITION_MELT
         passType: 0
+      - keywords: DETAIL_ADDITIVE EDGE_SHINY OUTLINE_ON UNDERLAY_ON
+        passType: 0
       - keywords: DETAIL_ADDITIVE TRANSITION_MELT
+        passType: 0
+      - keywords: DETAIL_MASKING EDGE_SHINY OUTLINE_ON UNDERLAY_ON
         passType: 0
       - keywords: DETAIL_MASKING EDGE_SHINY TRANSITION_MELT
         passType: 0
       - keywords: DETAIL_MASKING TRANSITION_MELT
         passType: 0
       - keywords: DETAIL_MULTIPLY_ADDITIVE TRANSITION_MELT
+        passType: 0
+      - keywords: DETAIL_REPLACE EDGE_SHINY OUTLINE_ON UNDERLAY_ON
+        passType: 0
+      - keywords: DETAIL_SUBTRACTIVE EDGE_SHINY OUTLINE_ON UNDERLAY_ON
         passType: 0
       - keywords: DETAIL_SUBTRACTIVE TRANSITION_MELT
         passType: 0
@@ -131,6 +151,8 @@ ShaderVariantCollection:
       - keywords: EDGE_SHINY OUTLINE_ON SAMPLING_RGB_SHIFT TRANSITION_MELT UNDERLAY_ON
         passType: 0
       - keywords: EDGE_SHINY OUTLINE_ON TRANSITION_MELT UNDERLAY_ON
+        passType: 0
+      - keywords: EDGE_SHINY OUTLINE_ON UNDERLAY_ON
         passType: 0
       - keywords: EDGE_SHINY TONE_NEGATIVE
         passType: 0
