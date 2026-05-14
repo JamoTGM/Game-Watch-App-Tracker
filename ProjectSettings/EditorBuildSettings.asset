@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Achievements/Nier Achieve/Nier_Achieve.unity
     guid: 84150774f3b17f841b3fda436a3fed0f
+  - enabled: 1
+    path: Assets/Nier_Game/Nier_Game.unity
+    guid: fa3ac6e43a25639449e765415b76c19d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
