@@ -35,5 +35,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Profile/Profile.unity
     guid: cef559e1ef61e394aaffdc3096da688f
+  - enabled: 1
+    path: Assets/Achievements/Achievement info nier/Info_Ach_P5.unity
+    guid: 057e7531ef0d24f47a7d4797b615e1bc
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
